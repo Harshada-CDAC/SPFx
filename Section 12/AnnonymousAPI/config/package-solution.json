@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "annonymous-api-client-side-solution",
+    "id": "be9a112f-1b9a-49ab-881a-6f62d7aab38d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "annonymous-api description"
+      },
+      "longDescription": {
+        "default": "annonymous-api description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "annonymous-api Feature",
+        "description": "The feature that activates elements of the annonymous-api solution.",
+        "id": "ca68edd0-cb73-43da-a57f-dda7f106e051",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/annonymous-api.sppkg"
+  }
+}

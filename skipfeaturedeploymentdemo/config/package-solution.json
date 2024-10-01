@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "skipfeaturedeplymentdemo-client-side-solution",
+    "id": "10869837-9c7b-40a9-b440-97c6e4667378",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "skipfeaturedeplymentdemo description"
+      },
+      "longDescription": {
+        "default": "skipfeaturedeplymentdemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "skipfeaturedeplymentdemo Feature",
+        "description": "The feature that activates elements of the skipfeaturedeplymentdemo solution.",
+        "id": "9c55a65a-3817-4793-8340-d89267200471",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/skipfeaturedeplymentdemo.sppkg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "correct-crudreact-final",
+    "libraryId": "9e2e0f10-dba3-4b30-ac29-5bc84b63dad1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "correct-crudreact-final",
+    "solutionShortDescription": "correct-crudreact-final description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

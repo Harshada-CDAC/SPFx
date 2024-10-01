@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "annonymous-api-2",
+    "libraryId": "db1828ba-4ed7-442e-8468-48b0318adb57",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "AnnonymousAPI2",
+    "solutionShortDescription": "AnnonymousAPI2 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

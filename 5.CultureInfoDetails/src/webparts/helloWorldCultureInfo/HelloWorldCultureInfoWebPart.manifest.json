@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "165a5cc0-6c01-4292-aa97-46f92042cea8",
+  "alias": "HelloWorldCultureInfoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "HelloWorldCultureInfo" },
+    "description": { "default": "HelloWorldCultureInfo description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloWorldCultureInfo"
+    }
+  }]
+}

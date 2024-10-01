@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gulp-subtask-client-side-solution",
+    "id": "f5e95d12-84fd-4540-96a4-b08a7a079a98",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "gulp-subtask description"
+      },
+      "longDescription": {
+        "default": "gulp-subtask description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gulp-subtask Feature",
+        "description": "The feature that activates elements of the gulp-subtask solution.",
+        "id": "feba3445-2cbc-47e4-8e11-4281ef2c6206",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gulp-subtask.sppkg"
+  }
+}

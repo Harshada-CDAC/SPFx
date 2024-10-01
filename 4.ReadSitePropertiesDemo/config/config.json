@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-read-site-properties-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldReadSiteProperties/HelloWorldReadSitePropertiesWebPart.js",
+          "manifest": "./src/webparts/helloWorldReadSiteProperties/HelloWorldReadSitePropertiesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldReadSitePropertiesWebPartStrings": "lib/webparts/helloWorldReadSiteProperties/loc/{locale}.js"
+  }
+}

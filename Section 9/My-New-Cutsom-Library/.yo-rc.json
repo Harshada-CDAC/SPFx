@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "my-new-custom-library",
+    "libraryId": "7b5379e4-b525-4388-b216-c46bf45fbfe4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "My-New-Custom-Library",
+    "solutionShortDescription": "My-New-Custom-Library description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "library"
+  }
+}

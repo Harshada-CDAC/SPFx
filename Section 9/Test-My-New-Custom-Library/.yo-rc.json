@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "test-my-new-custom-library",
+    "libraryId": "f03ef6d3-f06d-4061-bc55-d5ab8c34bda4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "test-my-new-custom-library",
+    "solutionShortDescription": "test-my-new-custom-library description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

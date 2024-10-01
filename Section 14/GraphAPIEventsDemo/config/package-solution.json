@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-api-events-demo-client-side-solution",
+    "id": "eacc8c55-7d85-4b08-b5dd-0c16d9c87632",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+
+
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calenders.Read"
+      }
+    ],
+
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "graph-api-events-demo description"
+      },
+      "longDescription": {
+        "default": "graph-api-events-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "graph-api-events-demo Feature",
+        "description": "The feature that activates elements of the graph-api-events-demo solution.",
+        "id": "3efcd589-7f8c-4b78-a73b-806d5cc7191d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-api-events-demo.sppkg"
+  }
+}

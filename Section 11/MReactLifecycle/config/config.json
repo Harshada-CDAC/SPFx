@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hw-react-lifecycle-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hwReactLifecycle/HwReactLifecycleWebPart.js",
+          "manifest": "./src/webparts/hwReactLifecycle/HwReactLifecycleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HwReactLifecycleWebPartStrings": "lib/webparts/hwReactLifecycle/loc/{locale}.js"
+  }
+}

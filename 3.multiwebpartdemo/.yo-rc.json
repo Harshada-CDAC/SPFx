@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "multiwebpartsdemo",
+    "libraryId": "bc257725-ec46-4b54-8111-6cad612c3614",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "multiwebpartsdemo",
+    "solutionShortDescription": "multiwebpartsdemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

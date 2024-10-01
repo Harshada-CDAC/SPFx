@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "graph-api-events-demo",
+    "libraryId": "eacc8c55-7d85-4b08-b5dd-0c16d9c87632",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "graph-api-events-demo",
+    "solutionShortDescription": "graph-api-events-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+.helloMyFieldExtension {
+  background-color: aqua;
+  color: #ffffff; /* Use a direct color code or ensure theme-based colors are supported */
+  text-align: center;
+  padding: 0.5rem;
+  width: 100px; /* Width of the container */
+  border-radius: 4px; /* Optional: Add border radius for rounded corners */
+  overflow: hidden; /* Ensure that the inner content doesn't overflow */
+}
+
+.progressBar {
+  height: 20px; /* Height of the progress bar */
+  background-color: red; /* Background color of the progress bar */
+  color: blue; /* Text color inside the bar */
+  line-height: 20px; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  border-radius: 4px; /* Optional: Add border radius for rounded corners */
+}

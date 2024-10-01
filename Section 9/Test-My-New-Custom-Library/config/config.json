@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-test-new-custom-library-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldTestNewCustomLibrary/HelloWorldTestNewCustomLibraryWebPart.js",
+          "manifest": "./src/webparts/helloWorldTestNewCustomLibrary/HelloWorldTestNewCustomLibraryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldTestNewCustomLibraryWebPartStrings": "lib/webparts/helloWorldTestNewCustomLibrary/loc/{locale}.js"
+  }
+}

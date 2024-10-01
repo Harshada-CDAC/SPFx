@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "i-person-col-val-fetch-client-side-solution",
+    "id": "0732784b-945c-467c-aaa7-31d1344da374",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "i-person-col-val-fetch description"
+      },
+      "longDescription": {
+        "default": "i-person-col-val-fetch description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "i-person-col-val-fetch Feature",
+        "description": "The feature that activates elements of the i-person-col-val-fetch solution.",
+        "id": "8abd7935-f38b-444e-90ea-5e72a813d134",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/i-person-col-val-fetch.sppkg"
+  }
+}

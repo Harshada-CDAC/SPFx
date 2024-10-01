@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hosting-local-server-njf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hostingLocalServerNjf/HostingLocalServerNjfWebPart.js",
+          "manifest": "./src/webparts/hostingLocalServerNjf/HostingLocalServerNjfWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HostingLocalServerNjfWebPartStrings": "lib/webparts/hostingLocalServerNjf/loc/{locale}.js"
+  }
+}

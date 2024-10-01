@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/_layouts/workbench.aspx"
+}

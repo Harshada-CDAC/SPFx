@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "working-withproperty-pane-controls",
+    "libraryId": "16b9e4cf-8ec8-4ee8-91b2-004f63e2e265",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "working-withproperty-pane-controls",
+    "solutionShortDescription": "working-withproperty-pane-controls description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

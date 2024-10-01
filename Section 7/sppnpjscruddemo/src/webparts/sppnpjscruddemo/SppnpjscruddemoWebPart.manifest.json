@@ -1,0 +1,23 @@
+{
+  "id": "7cd9951d-996b-42bf-8cce-a4f64130d292",
+  "alias": "SppnpjscruddemoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "sppnpjscruddemo" },
+    "description": { "default": "sppnpjscruddemo description" },
+    "officeFabricIconFontName": "Shop",
+    "properties": {
+      "description": "sppnpjscruddemo"
+    }
+  }]
+}

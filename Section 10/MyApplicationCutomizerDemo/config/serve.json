@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/SitePages/Application-Cutomizer-Extension-Page.aspx",
+      "customActions": {
+        "600579f4-d64b-4917-89aa-7208817bc874": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"Header Of the sharepoint Page",
+            "Bottom":"Footer Of the sharepoint Page"
+
+          }
+        }
+      }
+    },
+    "helloAcDemo": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/SitePages/Application-Cutomizer-Extension-Page.aspx",
+      "customActions": {
+        "600579f4-d64b-4917-89aa-7208817bc874": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"Header Of the sharepoint Page",
+            "Bottom":"Footer Of the sharepoint Page"
+          }
+        }
+      }
+    }
+  }
+}

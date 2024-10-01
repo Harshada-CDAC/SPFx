@@ -1,0 +1,44 @@
+{
+  "name": "crud-react",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=18.17.1 <19.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.106.4",
+    "@microsoft/sp-core-library": "1.10.0-plusbeta",
+    "@microsoft/sp-property-pane": "1.10.0-plusbeta",
+    "@microsoft/sp-webpart-base": "1.10.0-plusbeta",
+    "@microsoft/sp-lodash-subset": "1.10.0-plusbeta",
+    "@microsoft/sp-office-ui-fabric-core": "1.10.0-plusbeta",
+
+    "autobind-decorator": "^2.4.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/sp-build-web": "1.10.0-plusbeta",
+    "@microsoft/sp-tslint-rules": "1.10.0-plusbeta",
+    "@microsoft/sp-module-interfaces": "1.10.0-plusbeta",
+    "@microsoft/sp-webpart-workbench": "1.10.0-plusbeta",
+    "@microsoft/rush-stack-compiler-3.3": "0.3.5",
+
+    "@rushstack/eslint-config": "2.5.1",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^6.12.5",
+    "eslint": "8.7.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "gulp": "4.0.2",
+    "typescript": "4.7.4"
+  }
+}

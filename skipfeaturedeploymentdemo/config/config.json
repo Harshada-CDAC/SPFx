@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "helloworldskip-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloworldskip/HelloworldskipWebPart.js",
+          "manifest": "./src/webparts/helloworldskip/HelloworldskipWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloworldskipWebPartStrings": "lib/webparts/helloworldskip/loc/{locale}.js"
+  }
+}

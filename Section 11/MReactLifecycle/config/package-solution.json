@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "m-react-lifecycle-client-side-solution",
+    "id": "89d18d74-8d9b-4407-b43f-3adb6e05b6f1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "m-react-lifecycle description"
+      },
+      "longDescription": {
+        "default": "m-react-lifecycle description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "m-react-lifecycle Feature",
+        "description": "The feature that activates elements of the m-react-lifecycle solution.",
+        "id": "ea01f409-d1b4-4f62-b12e-21293bcfc5d7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/m-react-lifecycle.sppkg"
+  }
+}

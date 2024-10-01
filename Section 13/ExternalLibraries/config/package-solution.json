@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "external-libraries-client-side-solution",
+    "id": "40b249f6-de1a-4d15-a8f6-c44b81fa0ed5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ExternalLibraries description"
+      },
+      "longDescription": {
+        "default": "ExternalLibraries description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "external-libraries Feature",
+        "description": "The feature that activates elements of the external-libraries solution.",
+        "id": "5187d64e-28fa-411a-a756-3032a6bcfc19",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/external-libraries.sppkg"
+  }
+}

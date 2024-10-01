@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "show-all-users-client-side-solution",
+    "id": "bf895ca5-3b53-44cc-b836-b0102f5ac2fb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "show-all-users description"
+      },
+      "longDescription": {
+        "default": "show-all-users description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "show-all-users Feature",
+        "description": "The feature that activates elements of the show-all-users solution.",
+        "id": "62acfaf2-c01a-47e0-8cda-8c4d296dff68",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/show-all-users.sppkg"
+  }
+}

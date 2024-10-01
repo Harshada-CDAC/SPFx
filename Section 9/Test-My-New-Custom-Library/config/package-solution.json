@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-my-new-custom-library-client-side-solution",
+    "id": "f03ef6d3-f06d-4061-bc55-d5ab8c34bda4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "test-my-new-custom-library description"
+      },
+      "longDescription": {
+        "default": "test-my-new-custom-library description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-my-new-custom-library Feature",
+        "description": "The feature that activates elements of the test-my-new-custom-library solution.",
+        "id": "70cc5a0b-3006-4f2c-a9af-8dd5301e92a0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-my-new-custom-library.sppkg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9fb2a6b7-5d4d-4958-90d1-e4142588e92b",
+  "alias": "HarshadaCrudDemoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+"supportedHosts": ["SharePointWebPart", "SharePointFullPage"],
+"supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "CrudDemo" },
+    "description": { "default": "CrudDemo description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CrudDemo"
+    }
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/Lists/Blank%20List%20Example/AllItems.aspx",
+      "customActions": {
+        "e50b9eed-2fbd-4109-b942-c730d5590785": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected..."
+          }
+        }
+      }
+    },
+    "hwmCommandSet": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/Lists/Blank%20List%20Example/AllItems.aspx",
+      "customActions": {
+        "e50b9eed-2fbd-4109-b942-c730d5590785": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected..."
+          }
+        }
+      }
+    }
+  }
+}
+ 

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "sppnpjscruddemo",
+    "libraryId": "62afade0-6293-49ad-bf5e-7c6d50711e07",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sppnpjscruddemo",
+    "solutionShortDescription": "sppnpjscruddemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

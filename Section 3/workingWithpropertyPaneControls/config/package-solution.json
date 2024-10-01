@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "working-withproperty-pane-controls-client-side-solution",
+    "id": "16b9e4cf-8ec8-4ee8-91b2-004f63e2e265",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "working-withproperty-pane-controls description"
+      },
+      "longDescription": {
+        "default": "working-withproperty-pane-controls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "working-withproperty-pane-controls Feature",
+        "description": "The feature that activates elements of the working-withproperty-pane-controls solution.",
+        "id": "8306dea7-1d07-4a46-b5bc-738b2b42d558",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/working-withproperty-pane-controls.sppkg"
+  }
+}

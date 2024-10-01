@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "m-react-lifecycle",
+    "libraryId": "89d18d74-8d9b-4407-b43f-3adb6e05b6f1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "m-react-lifecycle",
+    "solutionShortDescription": "m-react-lifecycle description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "180c9b6a-e25c-4ddf-ad95-9b11a44a24e9",
+  "alias": "PropertyPaneWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "My New PropertyPane" },
+    "description": { "default": "PropertyPane description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "My New PropertyPane",
+      "productdescription": "keyboard description",
+      "productname": "keyboard",
+      "productcost": 100,
+      "quantity": 20,
+      "billamount": 0,
+      "discount": 0,
+      "netbillamount": 0,
+      "IsCertified": "false"
+    }
+  }]
+}

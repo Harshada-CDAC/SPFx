@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-my-field-extension-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloMyFieldExtension/HelloMyFieldExtensionFieldCustomizer.js",
+          "manifest": "./src/extensions/helloMyFieldExtension/HelloMyFieldExtensionFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloMyFieldExtensionFieldCustomizerStrings": "lib/extensions/helloMyFieldExtension/loc/{locale}.js"
+  }
+}

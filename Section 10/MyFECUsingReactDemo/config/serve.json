@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/Lists/Blank%20List%20Example/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "5ce7c50b-ebb1-4382-ba3a-c89cbc505deb",
+          "properties": {
+            "sampleText": "Completed"
+          }
+        }
+      }
+    },
+    "hwfecUsingReact": {
+      "pageUrl": "https://hcsdevacc.sharepoint.com/sites/Harshada_testsite/Lists/Blank%20List%20Example/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "5ce7c50b-ebb1-4382-ba3a-c89cbc505deb",
+          "properties": {
+            "sampleText": "Completed"
+          }
+        }
+      }
+    }
+  }
+}

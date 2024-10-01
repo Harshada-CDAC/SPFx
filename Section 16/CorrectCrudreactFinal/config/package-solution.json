@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "correct-crudreact-final-client-side-solution",
+    "id": "9e2e0f10-dba3-4b30-ac29-5bc84b63dad1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "correct-crudreact-final description"
+      },
+      "longDescription": {
+        "default": "correct-crudreact-final description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "correct-crudreact-final Feature",
+        "description": "The feature that activates elements of the correct-crudreact-final solution.",
+        "id": "ac368089-57a2-4e3d-98ca-185547bba0c1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/correct-crudreact-final.sppkg"
+  }
+}

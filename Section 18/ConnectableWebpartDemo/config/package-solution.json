@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "connectable-webpart-demo-client-side-solution",
+    "id": "0bc944fb-5282-4937-b05e-b7229b568988",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "connectable-webpart-demo description"
+      },
+      "longDescription": {
+        "default": "connectable-webpart-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "connectable-webpart-demo Feature",
+        "description": "The feature that activates elements of the connectable-webpart-demo solution.",
+        "id": "29382c22-faef-40f8-a243-2ff5c95555db",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/connectable-webpart-demo.sppkg"
+  }
+}

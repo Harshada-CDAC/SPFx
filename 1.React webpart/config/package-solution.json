@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reactwebpart-client-side-solution",
+    "id": "b1b3df6c-ea40-4ca8-be01-168aac936995",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "reactwebpart description"
+      },
+      "longDescription": {
+        "default": "reactwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reactwebpart Feature",
+        "description": "The feature that activates elements of the reactwebpart solution.",
+        "id": "83ed7a97-b308-408e-b96a-bfb442c9e239",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reactwebpart.sppkg"
+  }
+}

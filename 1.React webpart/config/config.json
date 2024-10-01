@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "helloworldreact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloworldreact/HelloworldreactWebPart.js",
+          "manifest": "./src/webparts/helloworldreact/HelloworldreactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloworldreactWebPartStrings": "lib/webparts/helloworldreact/loc/{locale}.js"
+  }
+}

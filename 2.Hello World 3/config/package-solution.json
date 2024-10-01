@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-world-demo-3-client-side-solution",
+    "id": "73d3517c-4098-4073-97cc-59d9c95fbb98",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hello-world-demo3 description"
+      },
+      "longDescription": {
+        "default": "hello-world-demo3 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-world-demo-3 Feature",
+        "description": "The feature that activates elements of the hello-world-demo-3 solution.",
+        "id": "b440e5ba-8dcc-42b5-b7f4-e2aafa6853c2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-world-demo-3.sppkg"
+  }
+}
